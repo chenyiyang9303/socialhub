@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 
-export function logocloud() {
+export function LogoCloud() {
   const [logos, setLogos] = useState([
     [
       {
@@ -117,4 +117,4 @@ export function logocloud() {
     </div>
   );
 }
-export { logocloud as Logocloud };
+export { LogoCloud as Logocloud };
