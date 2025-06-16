@@ -129,7 +129,7 @@ export const testimonials: Testimonial[] = [
   {
     name: "Michael M.",
     quote:
-      "I would highly recommend SocialBu to anyone that wants to effectively manage all their social feeds in one place. It by far offers the most features for the money.",
+      "I would highly recommend Aethermetrics to anyone that wants to effectively manage all their social feeds in one place. It by far offers the most features for the money.",
     src: "https://i.pravatar.cc/150?img=17",
     designation: "Marketing Manager at CMHWorks",
   },
@@ -137,41 +137,41 @@ export const testimonials: Testimonial[] = [
     name: "Eric G.",
     quote:
       "Great application and customer service. This has really helped me save time for posting, because now I do not have to do it manually. I am really happy with it.",
-    src: "https://i.pravatar.cc/150?img=16",
+    src: "https://i.pravatar.cc/150?img=67",
     designation: "Freelance Social Media Manager",
   },
   {
     name: "Mick G.",
     quote:
-      "It's been such an easy and smooth journey starting with SocialBu. Good pricing, easy tool, great support. A no brainer.",
-    src: "https://i.pravatar.cc/150?img=1",
+      "It's been such an easy and smooth journey starting with Aethermetrics. Good pricing, easy tool, great support. A no brainer.",
+    src: "https://i.pravatar.cc/150?img=69",
     designation: "Head of Sales and Marketing",
   },
   {
     name: "Ian M.",
     quote:
-      "SocialBu is beauty. Easy to use and simple set up. I use the automation which works well. And responding is simple. I am happy with the software.",
+      "Aethermetrics is beauty. Easy to use and simple set up. I use the automation which works well. And responding is simple. I am happy with the software.",
     src: "https://i.pravatar.cc/150?img=18",
     designation: "Associate at St Andrews South Brisbane",
   },
   {
     name: "Larry Kim",
     quote:
-      "SocialBu helps me stay on top of the social media game, creating compelling original content for my social media channels with its AI-powered features. I strongly recommend giving it a shot.",
-    src: "https://i.pravatar.cc/150?img=19",
+      "Aethermetrics helps me stay on top of the social media game, creating compelling original content for my social media channels with its AI-powered features. I strongly recommend giving it a shot.",
+    src: "https://i.pravatar.cc/150?img=68",
     designation: "Founder of Wordstream",
   },
   {
     name: "Eeva L.",
     quote:
-      "Very happy to be part of the SocialBu family and I highly recommend it. It's not just a tool but a partnership that listens and evolves with you.",
+      "Very happy to be part of the Aethermetrics family and I highly recommend it. It's not just a tool but a partnership that listens and evolves with you.",
     src: "https://i.pravatar.cc/150?img=48",
     designation: "Marketing Agency Owner",
   },
   {
     name: "Kate Gross",
     quote:
-      "SocialBu saves me time, letting me easily manage my social networks. Its greatest perk is seamless communication with followers, team members, and content alike. Highly recommended.",
+      "Aethermetrics saves me time, letting me easily manage my social networks. Its greatest perk is seamless communication with followers, team members, and content alike. Highly recommended.",
     src: "https://i.pravatar.cc/150?img=21",
     designation: "Manager from FixThePhoto",
   },

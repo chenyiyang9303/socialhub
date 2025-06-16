@@ -6,34 +6,54 @@ import { cn } from "@/lib/utils";
 
 const FAQs = [
   {
-    question: "What is the purpose of this website?",
+    question: "What is Aethermetrics?",
     answer:
-      "This website is a place to help you find the best products and services in the world.",
+      "Aethermetrics is an all-in-one social media management and automation platform that helps you schedule, publish, analyze, and automate your social media activities across multiple platforms.",
   },
   {
-    question: "How do I contact support?",
+    question: "Which social media platforms does Aethermetrics support?",
     answer:
-      "You can contact support by email at support@example.com or by phone at 123-456-7890.",
+      "Aethermetrics supports LinkedIn, Twitter, Instagram, Threads, TikTok, Facebook, YouTube, Reddit, Bluesky, Pinterest, Mastodon, and Google Business Profile.",
   },
   {
-    question: "How do I find the best products?",
+    question: "Can I use Aethermetrics for free?",
     answer:
-      "You can find the best products by searching for them on the search page or by browsing the categories.",
+      "Yes, Aethermetrics offers a 7-day free trial so you can explore all features before committing to a paid plan.",
   },
   {
-    question: "Can I return a product?",
+    question: "How do I schedule posts with Aethermetrics?",
     answer:
-      "Yes, you can return a product within 30 days of purchase. Please refer to our return policy for more details.",
+      "You can easily schedule posts by connecting your social media accounts, creating your content, and selecting the date and time for publishing. Aethermetrics will automatically post on your behalf.",
   },
   {
-    question: "Do you offer international shipping?",
+    question: "Does Aethermetrics offer analytics and reporting?",
     answer:
-      "Yes, we offer international shipping to most countries. Shipping fees and delivery times may vary depending on the destination.",
+      "Yes, Aethermetrics provides in-depth analytics and reporting tools to help you track your content performance, hashtag success, and audience engagement.",
   },
   {
-    question: "How can I track my order?",
+    question: "Can I collaborate with my team on Aethermetrics?",
     answer:
-      "You can track your order by logging into your account and visiting the order history page. You will also receive a tracking number via email once your order has shipped.",
+      "Absolutely! Aethermetrics allows you to invite team members, assign roles, and collaborate on content creation, approval, and publishing.",
+  },
+  {
+    question: "Is there an AI assistant in Aethermetrics?",
+    answer:
+      "Yes, Aethermetrics features an AI assistant that helps you generate content, captions, and similar posts, making your social media management more efficient.",
+  },
+  {
+    question: "How do I contact customer support?",
+    answer:
+      "You can reach Aethermetrics's customer support through the help center on the website or by emailing their support team directly.",
+  },
+  {
+    question: "Can I automate social media tasks with Aethermetrics?",
+    answer:
+      "Yes, you can automate tasks such as posting from RSS feeds, setting up auto-replies, and triggering webhooks to streamline your workflow.",
+  },
+  {
+    question: "Is my data secure with Aethermetrics?",
+    answer:
+      "Aethermetrics takes data security seriously and implements industry-standard measures to protect your information and privacy.",
   },
 ];
 export function SimpleFaqsWithBackground() {
@@ -47,10 +67,10 @@ export function SimpleFaqsWithBackground() {
         We are here to help you with any questions you may have. If you
         don&apos;t find what you need, please contact us at{" "}
         <a
-          href="mailto:support@example.com"
+          href="mailto:support@Aethermetrics.com"
           className="text-blue-500 underline"
         >
-          support@example.com
+          support@Aethermetrics.com
         </a>
       </p>
       <div className="mx-auto mt-10 w-full max-w-3xl">

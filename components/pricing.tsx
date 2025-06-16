@@ -23,64 +23,69 @@ export type Plan = {
   onClick: () => void;
 };
 
-const plans: Array<Plan> = [
+const plans = [
   {
-    id: plan.hobby,
-    name: "Hobby",
-    price: 99,
+    id: "essential",
+    name: "Essential",
+    price: 19,
     subText: "/month",
     currency: "$",
     features: [
-      "12 social accounts",
+      "Connect up to 12 social accounts",
       "2 teams",
-      "Email support",
-      "Community forum access",
-      "Cancel anytime",
+      "Up to 800 posts per month",
+      "AI content generation (50 posts/month)",
+      "Bulk import, content calendar, custom queues",
+      "Email support"
     ],
-    buttonText: "Get Hobby",
+    buttonText: "Get Essential",
     onClick: () => {
       window.location.href = "/login";
     },
   },
   {
-    id: plan.starter,
-    name: "Starter",
-    price: 299,
+    id: "professional",
+    name: "Professional",
+    price: 59,
     subText: "/month",
     currency: "$",
     featured: true,
     features: [
-      "Advanced analytics dashboard",
-      "Customizable reports and charts",
-      "Real-time data tracking",
-      "Integration with third-party tools",
+      "Connect up to 30 social accounts",
+      "6 teams",
+      "Unlimited posts",
+      "AI content generation (200 posts/month)",
+      "Phone support",
+      "Advanced automation and collaboration features"
     ],
-    buttonText: "Get Starter",
-    additionalFeatures: ["Everything in Hobby Plan"],
+    additionalFeatures: ["Includes all Essential features"],
+    buttonText: "Get Professional",
     onClick: () => {
       window.location.href = "/login";
     },
   },
   {
-    id: plan.pro,
-    name: "Pro",
-    price: 1490,
+    id: "enterprise",
+    name: "Enterprise",
+    price: 199,
     subText: "/month",
     currency: "$",
     features: [
-      "Unlimited data storage",
-      "Customizable dashboards",
-      "Advanced data segmentation",
-      "Real-time data processing",
-      "AI-powered insights and recommendations",
+      "Connect up to 150 social accounts",
+      "25 teams",
+      "Unlimited posts",
+      "AI content generation (400 posts/month)",
+      "Phone support",
+      "Enterprise-grade automation and collaboration"
     ],
-    additionalFeatures: ["Everything in Hobby Plan", "Everything in Pro Plan"],
-    buttonText: "Get Pro",
+    additionalFeatures: ["Includes all Professional features"],
+    buttonText: "Get Enterprise",
     onClick: () => {
       window.location.href = "/login";
     },
   },
 ];
+
 
 export function Pricing() {
   return (
