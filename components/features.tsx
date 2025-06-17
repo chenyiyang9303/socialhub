@@ -38,7 +38,7 @@ export function Features() {
           <CardContent className="h-40">
             <CardTitle>Publish</CardTitle>
             <CardDescription>
-            Effortlessly plan, organize, and automate your social media posts across multiple platforms with SocialBu.
+            Effortlessly plan, organize, and automate your social media posts across multiple platforms with Aethermetrics.
             </CardDescription>
           </CardContent>
           <CardSkeletonBody>

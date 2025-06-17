@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { IconMenu2, IconX } from "@tabler/icons-react";
+import { IconMenu2, IconX, IconChevronDown } from "@tabler/icons-react";
 import {
   motion,
   AnimatePresence,
@@ -15,19 +15,153 @@ import { ModeToggle } from "./mode-toggle";
 import { useCalEmbed } from "@/app/hooks/useCalEmbed";
 import { CONSTANTS } from "@/constants/links";
 
-interface NavbarProps {
-  navItems: {
+interface NavItem {
+  name: string;
+  link?: string;
+  subItems?: {
     name: string;
     link: string;
+    description: string;
+    icon: string;
   }[];
+}
+
+interface NavbarProps {
+  navItems: NavItem[];
   visible: boolean;
 }
 
 export const Navbar = () => {
-  const navItems = [
+  const navItems: NavItem[] = [
     {
-      name: "Features",
-      link: "/#features",
+      name: "Product",
+      subItems: [
+        {
+          name: "Publish",
+          link: "/publish",
+          description: "Schedule, preview & recycle posts, social calendar, bulk schedule",
+          icon: "📤"
+        },
+        {
+          name: "Automate",
+          link: "/automate", 
+          description: "True automation, auto post from RSS, auto replies, handle reviews",
+          icon: "🔄"
+        },
+        {
+          name: "Curate",
+          link: "/curate",
+          description: "Discover & share content, advanced filtering, write with AI",
+          icon: "📋"
+        },
+        {
+          name: "Analyze",
+          link: "/analyze",
+          description: "Top posts, post insights, follower insights",
+          icon: "📊"
+        },
+        {
+          name: "Generate",
+          link: "/generate",
+          description: "X posts, LinkedIn posts, Instagram captions, Short posts",
+          icon: "✨"
+        },
+        {
+          name: "Collaborate",
+          link: "/collaborate",
+          description: "Manage teams & multiple brands, post approvals & conversations",
+          icon: "👥"
+        },
+        {
+          name: "Respond",
+          link: "/respond",
+          description: "One inbox for all social media conversations & reviews",
+          icon: "💬"
+        },
+        {
+          name: "Assistant",
+          link: "/assistant",
+          description: "AI-powered content creation, autocomplete & personal assistant",
+          icon: "🤖"
+        }
+      ]
+    },
+    {
+      name: "Platforms",
+      subItems: [
+        {
+          name: "Facebook",
+          link: "/facebook",
+          description: "Schedule and manage Facebook posts, pages and groups",
+          icon: "📘"
+        },
+        {
+          name: "YouTube",
+          link: "/youtube",
+          description: "Upload and schedule YouTube videos and shorts",
+          icon: "📺"
+        },
+        {
+          name: "X (Twitter)",
+          link: "/twitter",
+          description: "Tweet scheduling, threads and engagement management",
+          icon: "🐦"
+        },
+        {
+          name: "Reddit",
+          link: "/reddit",
+          description: "Post to multiple subreddits and manage communities",
+          icon: "🔴"
+        },
+        {
+          name: "Instagram",
+          link: "/instagram",
+          description: "Share photos, stories, reels and IGTV content",
+          icon: "📷"
+        },
+        {
+          name: "Mastodon",
+          link: "/mastodon",
+          description: "Decentralized social network posting and management",
+          icon: "🐘"
+        },
+        {
+          name: "Threads",
+          link: "/threads",
+          description: "Meta's text-based conversation platform",
+          icon: "🧵"
+        },
+        {
+          name: "Pinterest",
+          link: "/pinterest",
+          description: "Pin management and board organization",
+          icon: "📌"
+        },
+        {
+          name: "LinkedIn",
+          link: "/linkedin",
+          description: "Professional networking and content sharing",
+          icon: "💼"
+        },
+        {
+          name: "Bluesky",
+          link: "/bluesky",
+          description: "Decentralized social networking protocol",
+          icon: "🦋"
+        },
+        {
+          name: "TikTok",
+          link: "/tiktok",
+          description: "Short-form video content creation and scheduling",
+          icon: "🎵"
+        },
+        {
+          name: "Google Business Profile",
+          link: "/google-business-profile",
+          description: "Manage your business presence on Google",
+          icon: "🏢"
+        }
+      ]
     },
     {
       name: "Pricing",
@@ -64,6 +198,7 @@ export const Navbar = () => {
 
 const DesktopNav = ({ navItems, visible }: NavbarProps) => {
   const [hovered, setHovered] = useState<number | null>(null);
+  const [dropdownOpen, setDropdownOpen] = useState<number | null>(null);
 
   const calOptions = useCalEmbed({
     namespace: CONSTANTS.CALCOM_NAMESPACE,
@@ -80,6 +215,7 @@ const DesktopNav = ({ navItems, visible }: NavbarProps) => {
     <motion.div
       onMouseLeave={() => {
         setHovered(null);
+        setDropdownOpen(null);
       }}
       animate={{
         backdropFilter: visible ? "blur(10px)" : "none",
@@ -104,21 +240,82 @@ const DesktopNav = ({ navItems, visible }: NavbarProps) => {
     >
       <Logo />
       <motion.div className="lg:flex flex-row flex-1 absolute inset-0 hidden items-center justify-center space-x-2 lg:space-x-2 text-sm text-zinc-600 font-medium hover:text-zinc-800 transition duration-200">
-        {navItems.map((navItem: any, idx: number) => (
-          <Link
-            onMouseEnter={() => setHovered(idx)}
-            className="text-neutral-600 dark:text-neutral-300 relative px-4 py-2"
+        {navItems.map((navItem: NavItem, idx: number) => (
+          <div
             key={`link=${idx}`}
-            href={navItem.link}
+            className="relative"
+            onMouseEnter={() => {
+              setHovered(idx);
+              if (navItem.subItems) {
+                setDropdownOpen(idx);
+              }
+            }}
           >
-            {hovered === idx && (
-              <motion.div
-                layoutId="hovered"
-                className="w-full h-full absolute inset-0 bg-gray-100 dark:bg-neutral-800 rounded-full"
-              />
+            {navItem.subItems ? (
+              <div className="text-neutral-600 dark:text-neutral-300 relative px-4 py-2 flex items-center gap-1 cursor-pointer">
+                {hovered === idx && (
+                  <motion.div
+                    layoutId="hovered"
+                    className="w-full h-full absolute inset-0 bg-gray-100 dark:bg-neutral-800 rounded-full"
+                  />
+                )}
+                <span className="relative z-20">{navItem.name}</span>
+                <IconChevronDown className="w-4 h-4 relative z-20" />
+              </div>
+            ) : (
+              <Link
+                className="text-neutral-600 dark:text-neutral-300 relative px-4 py-2"
+                href={navItem.link!}
+              >
+                {hovered === idx && (
+                  <motion.div
+                    layoutId="hovered"
+                    className="w-full h-full absolute inset-0 bg-gray-100 dark:bg-neutral-800 rounded-full"
+                  />
+                )}
+                <span className="relative z-20">{navItem.name}</span>
+              </Link>
             )}
-            <span className="relative z-20">{navItem.name}</span>
-          </Link>
+            
+            {/* Dropdown Menu */}
+            <AnimatePresence>
+              {dropdownOpen === idx && navItem.subItems && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                  transition={{ duration: 0.2 }}
+                  className={cn(
+                    "absolute top-full left-0 mt-2 bg-white dark:bg-neutral-900 rounded-xl shadow-xl border border-neutral-200 dark:border-neutral-700 overflow-hidden z-50",
+                    navItem.name === "Platforms" ? "w-[720px]" : "w-[640px]"
+                  )}
+                >
+                  <div className="p-2">
+                    <div className="grid grid-cols-2 gap-1">
+                      {navItem.subItems.map((subItem, subIdx) => (
+                        <Link
+                          key={subIdx}
+                          href={subItem.link}
+                          className="flex items-start gap-3 p-3 rounded-lg hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors group"
+                          onClick={() => setDropdownOpen(null)}
+                        >
+                          <div className="text-2xl">{subItem.icon}</div>
+                          <div className="flex-1">
+                            <div className="font-medium text-neutral-900 dark:text-neutral-100 group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                              {subItem.name}
+                            </div>
+                            <div className="text-sm text-neutral-500 dark:text-neutral-400 mt-1">
+                              {subItem.description}
+                            </div>
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         ))}
       </motion.div>
       <div className="flex items-center gap-4">
@@ -172,6 +369,7 @@ const DesktopNav = ({ navItems, visible }: NavbarProps) => {
 
 const MobileNav = ({ navItems, visible }: NavbarProps) => {
   const [open, setOpen] = useState(false);
+  const [expandedItems, setExpandedItems] = useState<number[]>([]);
 
   const calOptions = useCalEmbed({
     namespace: "chat-with-manu-demo",
@@ -183,6 +381,14 @@ const MobileNav = ({ navItems, visible }: NavbarProps) => {
     hideEventTypeDetails: false,
     layout: "month_view",
   });
+
+  const toggleExpanded = (idx: number) => {
+    setExpandedItems(prev => 
+      prev.includes(idx) 
+        ? prev.filter(i => i !== idx)
+        : [...prev, idx]
+    );
+  };
 
   return (
     <>
@@ -231,38 +437,83 @@ const MobileNav = ({ navItems, visible }: NavbarProps) => {
               }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="flex rounded-lg absolute top-16 bg-white dark:bg-neutral-950 inset-x-0 z-50 flex-col items-start justify-start gap-4 w-full px-4 py-8 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              className="flex rounded-lg absolute top-16 bg-white dark:bg-neutral-950 inset-x-0 z-50 flex-col items-start justify-start gap-2 w-full px-4 py-6 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             >
-              {navItems.map((navItem: any, idx: number) => (
-                <Link
-                  key={`link=${idx}`}
-                  href={navItem.link}
-                  onClick={() => setOpen(false)}
-                  className="relative text-neutral-600 dark:text-neutral-300"
-                >
-                  <motion.span className="block">{navItem.name} </motion.span>
-                </Link>
+              {navItems.map((navItem: NavItem, idx: number) => (
+                <div key={`mobile-link=${idx}`} className="w-full">
+                  {navItem.subItems ? (
+                    <div className="w-full">
+                      <button
+                        onClick={() => toggleExpanded(idx)}
+                        className="flex items-center justify-between w-full p-2 text-left text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100"
+                      >
+                        <span>{navItem.name}</span>
+                        <IconChevronDown 
+                          className={cn(
+                            "w-4 h-4 transition-transform duration-200",
+                            expandedItems.includes(idx) && "rotate-180"
+                          )}
+                        />
+                      </button>
+                      <AnimatePresence>
+                        {expandedItems.includes(idx) && (
+                          <motion.div
+                            initial={{ height: 0, opacity: 0 }}
+                            animate={{ height: "auto", opacity: 1 }}
+                            exit={{ height: 0, opacity: 0 }}
+                            transition={{ duration: 0.2 }}
+                            className="overflow-hidden"
+                          >
+                            <div className="pl-4 space-y-2">
+                              {navItem.subItems.map((subItem, subIdx) => (
+                                <Link
+                                  key={subIdx}
+                                  href={subItem.link}
+                                  onClick={() => setOpen(false)}
+                                  className="flex items-center gap-3 p-2 text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200"
+                                >
+                                  <span className="text-base">{subItem.icon}</span>
+                                  <span>{subItem.name}</span>
+                                </Link>
+                              ))}
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  ) : (
+                    <Link
+                      href={navItem.link!}
+                      onClick={() => setOpen(false)}
+                      className="block p-2 text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100"
+                    >
+                      {navItem.name}
+                    </Link>
+                  )}
+                </div>
               ))}
-              <Button
-                as={Link}
-                onClick={() => setOpen(false)}
-                href={CONSTANTS.LOGIN_LINK}
-                variant="primary"
-                className="block md:hidden w-full"
-              >
-                Login
-              </Button>
-              <Button
-                data-cal-namespace={calOptions.namespace}
-                data-cal-link={`manu-arora-vesr9s/chat-with-manu-demo`}
-                data-cal-config={`{"layout":"${calOptions.layout}"}`}
-                as="button"
-                onClick={() => setOpen(false)}
-                variant="primary"
-                className="block md:hidden w-full"
-              >
-                Book a call
-              </Button>
+              <div className="w-full pt-4 space-y-2">
+                <Button
+                  as={Link}
+                  onClick={() => setOpen(false)}
+                  href={CONSTANTS.LOGIN_LINK}
+                  variant="secondary"
+                  className="w-full"
+                >
+                  Login
+                </Button>
+                <Button
+                  data-cal-namespace={calOptions.namespace}
+                  data-cal-link={`manu-arora-vesr9s/chat-with-manu-demo`}
+                  data-cal-config={`{"layout":"${calOptions.layout}"}`}
+                  as="button"
+                  onClick={() => setOpen(false)}
+                  variant="primary"
+                  className="w-full"
+                >
+                  Book a call
+                </Button>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>

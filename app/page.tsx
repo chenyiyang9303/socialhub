@@ -8,6 +8,7 @@ import { Faq } from "@/components/faq";
 import { Testimonials } from "@/components/testimonials";
 import { Stats } from "@/components/statssections";
 import { Features2 } from "@/components/features2";
+import { WhoCantBenefit } from "@/components/who-can-benefit";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <main className="">
       <Hero />
       <Features />
+      <WhoCantBenefit />
       <Stats />
       <Logocloud />
       <Pricing />

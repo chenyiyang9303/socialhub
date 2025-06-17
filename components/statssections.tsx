@@ -7,24 +7,24 @@ import { useId } from "react";
 export function StatsWithGridBackground() {
   const items = [
     {
-      title: "Posts Createds",
-      description: "Years in the business where we helped companies grow.",
+      title: "Posts Created",
+      description: "Total number of posts created by users on our platform.",
       icon: IconTimeline,
       value: "2.5M+",
     },
     {
       title: "Avg. Hours Saved",
-      description: "Over 100k people have used our services.",
+      description: "Average hours saved by our users through automation and scheduling.",
       icon: IconServer,
       value: "40K+",
     },
     {
       title: "Average Rating",
-      description: "We are always available to help you with your needs.",
+      description: "Our users rate us highly for ease of use and customer support.",
       icon: IconArrowsUp,
       value: "4.9/5",
     },
-  ];
+  ];  
   return (
     <div className="py-20">
       <div className="mx-auto max-w-7xl border border-neutral-200 dark:border-neutral-800">
