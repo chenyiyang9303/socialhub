@@ -201,7 +201,7 @@ export default function RespondPage() {
                 <Button variant="secondary" className="bg-white text-blue-600 hover:bg-blue-50">
                   Start for free
                 </Button>
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+                <Button variant="secondary" className="border-white text-white hover:bg-white hover:text-blue-600">
                   Cancel anytime • Free for 7 days
                 </Button>
               </div>
