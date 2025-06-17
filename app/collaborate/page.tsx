@@ -59,7 +59,7 @@ export default function CollaboratePage() {
                   easy
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  Collaborate with your team members to publish content efficiently. You don't need to share passwords with your team members anymore.
+                  Collaborate with your team members to publish content efficiently. You don&apos;t need to share passwords with your team members anymore.
                 </p>
                 <ul className="space-y-3 text-neutral-600 dark:text-neutral-400">
                   <li className="flex items-center gap-2">

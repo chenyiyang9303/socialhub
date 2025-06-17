@@ -119,7 +119,7 @@ export default function PinterestPage() {
         </Container>
       </section>
 
-      {/* Review Pins Before They're Published */}
+      {/* Review Pins Before They&apos;re Published */}
       <section className="py-20 bg-neutral-50 dark:bg-neutral-900">
         <Container>
           <div className="max-w-7xl mx-auto">
@@ -133,7 +133,7 @@ export default function PinterestPage() {
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
-                  Review Pins Before They're Published
+                  Review Pins Before They&apos;re Published
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                   Need control over your content before it goes live. Review and 
@@ -328,7 +328,7 @@ export default function PinterestPage() {
                   AI Inspiration for Effortless Pins
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  Leverage Pinterest's unique perspective to active 
+                  Leverage Pinterest&apos;s unique perspective to active 
                   intelligent pin ideas and descriptions optimized 
                   to drive results. AI generates quality pins 
                   tailored to your audience.

@@ -178,7 +178,7 @@ export default function AutomatePage() {
                   Optimal Timing
                 </h3>
                 <p className="text-neutral-600 dark:text-neutral-400">
-                  AI determines the best times to post based on your audience's activity patterns and engagement history.
+                  AI determines the best times to post based on your audience&apos;s activity patterns and engagement history.
                 </p>
               </div>
               <div className="bg-white dark:bg-neutral-800 rounded-2xl p-6 shadow-lg">

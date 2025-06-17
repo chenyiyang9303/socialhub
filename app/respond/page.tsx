@@ -61,7 +61,7 @@ export default function RespondPage() {
                   one place
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  You don't need to switch between multiple social media accounts to keep up with the messages. Get them all in a shared inbox. If you are managing multiple brands, you can create separate inbox for each brand.
+                  You don&apos;t need to switch between multiple social media accounts to keep up with the messages. Get them all in a shared inbox. If you are managing multiple brands, you can create separate inbox for each brand.
                 </p>
                 <ul className="space-y-3 text-neutral-600 dark:text-neutral-400">
                   <li className="flex items-center gap-2">

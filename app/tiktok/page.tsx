@@ -218,7 +218,7 @@ export default function TikTokPage() {
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                   Use our advanced analytics and AI suggestions to optimize your content 
-                  for TikTok's algorithm. Post at the right times with the right hashtags 
+                  for TikTok&apos;s algorithm. Post at the right times with the right hashtags 
                   to maximize your reach and engagement.
                 </p>
                 <ul className="space-y-3 text-neutral-600 dark:text-neutral-400">

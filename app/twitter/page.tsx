@@ -59,7 +59,7 @@ export default function TwitterPage() {
                   Schedule posts to multiple X (Twitter) accounts
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  Manage the tweets of several accounts from one dashboard. Don't 
+                  Manage the tweets of several accounts from one dashboard. Don&apos;t 
                   waste time switching between different accounts. Manage all your 
                   Twitter accounts from one place.
                 </p>
@@ -138,7 +138,7 @@ export default function TwitterPage() {
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                   Plan, manage, and get a clear view of your Twitter content strategy. 
                   Our drag-and-drop calendar lets you organize all your tweets and threads 
-                  in one place and get a bird's eye view of your content.
+                  in one place and get a bird&apos;s eye view of your content.
                 </p>
                 <Button variant="primary">
                   View Calendar
@@ -221,7 +221,7 @@ export default function TwitterPage() {
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                   Effortlessly deliver your audience to a Facebook dashboard. 
                   Your blog feed on time. Through our RSS automation tool, 
-                  you'll have fresh content shared automatically with your 
+                  you&apos;ll have fresh content shared automatically with your 
                   Twitter audience.
                 </p>
                 <Button variant="primary">

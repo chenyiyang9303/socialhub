@@ -198,7 +198,7 @@ export default function GoogleBusinessProfilePage() {
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                   Set yourself a custom post-approval and review cycle to 
                   maintain quality control. Never worry about posting something 
-                  you didn't intend to post again.
+                  you didn&apos;t intend to post again.
                 </p>
                 <ul className="space-y-3 text-neutral-600 dark:text-neutral-400">
                   <li className="flex items-center gap-2">

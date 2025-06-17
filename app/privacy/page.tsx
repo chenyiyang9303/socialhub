@@ -62,7 +62,7 @@ export default function PrivacyPolicy() {
                 </ul>
                 
                 <h3 className="text-xl font-semibold mb-3">Usage Data</h3>
-                <p className="mb-4">We may also collect information about how the Service is accessed and used. This Usage Data may include information such as your computer's Internet Protocol address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, and other diagnostic data.</p>
+                <p className="mb-4">We may also collect information about how the Service is accessed and used. This Usage Data may include information such as your computer&apos;s Internet Protocol address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, and other diagnostic data.</p>
                 
                 <h3 className="text-xl font-semibold mb-3">Tracking & Cookies Data</h3>
                 <p className="mb-4">We use cookies and similar tracking technologies to track the activity on our Service and hold certain information. Examples of Cookies we use:</p>
@@ -116,7 +116,7 @@ export default function PrivacyPolicy() {
               </section>
 
               <section>
-                <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">Children's Privacy</h2>
+                <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">Children&apos;s Privacy</h2>
                 <p className="mb-4">Our Service does not address anyone under the age of 18 ("Children").</p>
                 <p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us.</p>
               </section>

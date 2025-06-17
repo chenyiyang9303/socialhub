@@ -199,7 +199,7 @@ export default function LinkedInPage() {
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                   Save time by scheduling multiple LinkedIn posts at once. Upload content in batches, 
                   schedule professional updates, and ensure your LinkedIn presence remains active 
-                  even when you're busy with other priorities.
+                  even when you&apos;re busy with other priorities.
                 </p>
                 <Button variant="primary">
                   Bulk Upload

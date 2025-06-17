@@ -18,7 +18,7 @@ export default function CookiePolicy() {
             <div className="space-y-8 text-neutral-700 dark:text-neutral-300">
               <div className="bg-neutral-50 dark:bg-neutral-900 rounded-lg p-6">
                 <p className="mb-4">
-                  This Cookie Policy explains how <strong>AETHER METRICS LLC</strong> ("we", "us", or "our") uses cookies and similar technologies when you visit our website www.aethermetrics.com (the "Service").
+                  This Cookie Policy explains how <strong>AETHER METRICS LLC</strong> (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) uses cookies and similar technologies when you visit our website www.aethermetrics.com (the &quot;Service&quot;).
                 </p>
                 <p>
                   It explains what these technologies are and why we use them, as well as your rights to control our use of them.
@@ -31,14 +31,14 @@ export default function CookiePolicy() {
                   Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners in order to make their websites work, or to work more efficiently, as well as to provide reporting information.
                 </p>
                 <p>
-                  Cookies set by the website owner (in this case, AETHER METRICS LLC) are called "first party cookies". Cookies set by parties other than the website owner are called "third party cookies".
+                  Cookies set by the website owner (in this case, AETHER METRICS LLC) are called &quot;first party cookies&quot;. Cookies set by parties other than the website owner are called &quot;third party cookies&quot;.
                 </p>
               </section>
 
               <section>
                 <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">Why do we use cookies?</h2>
                 <p className="mb-4">
-                  We use first and third party cookies for several reasons. Some cookies are required for technical reasons in order for our Service to operate, and we refer to these as "essential" or "strictly necessary" cookies.
+                  We use first and third party cookies for several reasons. Some cookies are required for technical reasons in order for our Service to operate, and we refer to these as &quot;essential&quot; or &quot;strictly necessary&quot; cookies.
                 </p>
                 <p>
                   Other cookies enable us to track and target the interests of our users to enhance the experience on our Service.

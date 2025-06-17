@@ -15,7 +15,7 @@ export default function AssistantPage() {
                   <br />
                   power of
                   <br />
-                  Aethermetrics's AI
+                  Aethermetrics&apos;s AI
                 </h1>
                 <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed">
                   Let the AI work for you, simplify your life and take your social strategies to the next level.

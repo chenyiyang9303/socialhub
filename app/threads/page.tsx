@@ -26,8 +26,8 @@ export default function ThreadsPage() {
                 Simplify Your <span className="text-blue-600">Threads</span> Management with Aethermetrics
               </h1>
               <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                Streamline your Threads presence with Aethermetrics's management and scheduling 
-                tools. Connect with your audience on Meta's new conversational platform effortlessly.
+                Streamline your Threads presence with Aethermetrics&apos;s management and scheduling 
+                tools. Connect with your audience on Meta&apos;s new conversational platform effortlessly.
               </p>
               <div className="flex gap-4 justify-center">
                 <Button variant="primary" href="/login">
@@ -84,7 +84,7 @@ export default function ThreadsPage() {
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
                   Share diverse content on Threads including photos, videos, and text posts. 
                   Create engaging conversations with multimedia content that resonates with 
-                  your audience on Meta's text-based platform.
+                  your audience on Meta&apos;s text-based platform.
                 </p>
                 <ul className="space-y-3 text-neutral-600 dark:text-neutral-400">
                   <li className="flex items-center gap-2">
@@ -178,7 +178,7 @@ export default function ThreadsPage() {
                   Plan using the simple social calendar
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  Get a bird's eye view of your Threads content strategy with our visual calendar. 
+                  Get a bird&apos;s eye view of your Threads content strategy with our visual calendar. 
                   Plan posts in advance, maintain consistency, and ensure your audience stays 
                   engaged with timely, relevant content.
                 </p>

@@ -100,7 +100,7 @@ export default function BlueskyPage() {
                   Share your world
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  Express yourself authentically on Bluesky's open social network. 
+                  Express yourself authentically on Bluesky&apos;s open social network. 
                   Share thoughts, images, and moments that matter to you with 
                   complete creative freedom.
                 </p>
@@ -347,9 +347,9 @@ export default function BlueskyPage() {
                   Automate Posting from RSS Feeds
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  Keep your Bluesky feed fresh and active by connecting your blog's RSS feed. 
+                  Keep your Bluesky feed fresh and active by connecting your blog&apos;s RSS feed. 
                   Automatically share your latest content with your Bluesky community 
-                  as soon as it's published.
+                  as soon as it&apos;s published.
                 </p>
                 <ul className="space-y-3 text-neutral-600 dark:text-neutral-400">
                   <li className="flex items-center gap-2">

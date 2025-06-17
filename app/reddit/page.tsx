@@ -59,9 +59,9 @@ export default function RedditPage() {
                   Schedule posts for later
                 </h2>
                 <p className="text-lg text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                  Get ahead of your posting with Aethermetrics's convenient 
+                  Get ahead of your posting with Aethermetrics&apos;s convenient 
                   scheduling tool, now you can plan ahead of time using 
-                  Aethermetrics's Reddit feature.
+                  Aethermetrics&apos;s Reddit feature.
                 </p>
                 <ul className="space-y-3 text-neutral-600 dark:text-neutral-400">
                   <li className="flex items-center gap-2">

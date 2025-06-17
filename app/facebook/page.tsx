@@ -26,7 +26,7 @@ export default function FacebookPage() {
                 Manage Your Facebook Presence
               </h1>
               <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                Schedule posts to multiple Facebook pages, engage with your audience, and grow your presence on the world's largest social network.
+                Schedule posts to multiple Facebook pages, engage with your audience, and grow your presence on the world&apos;s largest social network.
               </p>
               <div className="flex gap-4 justify-center">
                 <Button variant="primary" href="/login">
