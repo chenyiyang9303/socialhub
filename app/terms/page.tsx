@@ -18,7 +18,7 @@ export default function TermsOfService() {
             <div className="space-y-8 text-neutral-700 dark:text-neutral-300">
               <div className="bg-neutral-50 dark:bg-neutral-900 rounded-lg p-6">
                 <p className="mb-4">
-                  Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the www.aethermetrics.com website and the AETHER METRICS product (the "Service") operated by <strong>AETHER METRICS LLC</strong> ("us", "we", or "our").
+                  Please read these Terms and Conditions (&quot;Terms&quot;, &quot;Terms and Conditions&quot;) carefully before using the www.aethermetrics.com website and the AETHER METRICS product (the &quot;Service&quot;) operated by <strong>AETHER METRICS LLC</strong> (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;).
                 </p>
                 <p className="mb-4">
                   Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the Service.
@@ -47,7 +47,7 @@ export default function TermsOfService() {
 
               <section>
                 <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">Subscriptions</h2>
-                <p className="mb-4">Some parts of the Service are billed on a subscription basis ("Subscription(s)"). You will be billed in advance on a recurring and periodic basis ("Billing Cycle"). Billing cycles are set either on a monthly or annual basis, depending on the type of subscription plan you select when purchasing a Subscription.</p>
+                <p className="mb-4">Some parts of the Service are billed on a subscription basis (&quot;Subscription(s)&quot;). You will be billed in advance on a recurring and periodic basis (&quot;Billing Cycle&quot;). Billing cycles are set either on a monthly or annual basis, depending on the type of subscription plan you select when purchasing a Subscription.</p>
                 
                 <p className="mb-4">At the end of each Billing Cycle, your Subscription will automatically renew under the exact same conditions unless you cancel it or AETHER METRICS LLC cancels it. You may cancel your Subscription renewal either through your online account management page or by contacting AETHER METRICS LLC customer support team.</p>
                 
@@ -58,7 +58,7 @@ export default function TermsOfService() {
 
               <section>
                 <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">Free Trial</h2>
-                <p className="mb-4">AETHER METRICS LLC may, at its sole discretion, offer a Subscription with a free trial for a limited period of time ("Free Trial"). You may be required to enter your billing information in order to sign up for the Free Trial.</p>
+                <p className="mb-4">AETHER METRICS LLC may, at its sole discretion, offer a Subscription with a free trial for a limited period of time (&quot;Free Trial&quot;). You may be required to enter your billing information in order to sign up for the Free Trial.</p>
                 
                 <p className="mb-4">If you do enter your billing information when signing up for the Free Trial, you will not be charged by AETHER METRICS LLC until the Free Trial has expired. On the last day of the Free Trial period, unless you cancelled your Subscription, you will be automatically charged the applicable Subscription fees for the type of Subscription you have selected.</p>
                 
@@ -141,7 +141,7 @@ export default function TermsOfService() {
 
               <section>
                 <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">Disclaimer</h2>
-                <p>Your use of the Service is at your sole risk. The Service is provided on an "AS IS" and "AS AVAILABLE" basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement or course of performance.</p>
+                <p>Your use of the Service is at your sole risk. The Service is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis. The Service is provided without warranties of any kind, whether express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement or course of performance.</p>
               </section>
 
               <section>

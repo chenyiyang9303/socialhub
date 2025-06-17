@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
             <div className="space-y-8 text-neutral-700 dark:text-neutral-300">
               <div className="bg-neutral-50 dark:bg-neutral-900 rounded-lg p-6">
                 <p className="mb-4">
-                  <strong>AETHER METRICS LLC</strong> ("us", "we", or "our") operates the www.aethermetrics.com website and the AETHER METRICS product (the "Service").
+                  <strong>AETHER METRICS LLC</strong> (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the www.aethermetrics.com website and the AETHER METRICS product (the &quot;Service&quot;).
                 </p>
                 <p className="mb-4">
                   This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
                 <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">Data Deletion Request</h2>
                 <p className="mb-4">If you wish to delete your account or any data processed by AETHER METRICS, you can do so by following these steps:</p>
                 <ul className="list-disc list-inside space-y-2">
-                  <li><strong>Contact Us Directly:</strong> Send an email to support@aethermetrics.com with the subject line "Data Deletion Request."</li>
+                  <li><strong>Contact Us Directly:</strong> Send an email to support@aethermetrics.com with the subject line &quot;Data Deletion Request.&quot;</li>
                   <li><strong>Account Deletion:</strong> Log in to your AETHER METRICS account, navigate to Account Settings, and follow the steps under the Delete Account section.</li>
                   <li><strong>Third-Party Data:</strong> Remove permissions and data shared with AETHER METRICS through third-party APIs.</li>
                 </ul>
@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
 
               <section>
                 <h2 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 mb-4">Children&apos;s Privacy</h2>
-                <p className="mb-4">Our Service does not address anyone under the age of 18 ("Children").</p>
+                <p className="mb-4">Our Service does not address anyone under the age of 18 (&quot;Children&quot;).</p>
                 <p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us.</p>
               </section>
 
