@@ -9,9 +9,9 @@ import { ThemeProvider } from "@/context/providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Startup Landing | Aceternity Template",
+  title: "Aethermetrics - Easiest Way to Manage Your Social Media",
   description:
-    "Startup landing is a simple one page landing page for startups and agencies. Built with Next.js, Tailwind CSS, TypeScript and framer motion.",
+    "Create, schedule, organize, analyze, & manage all your social media accounts at one place. Aethermetrics provides all the tools you need to succeed on social media.",
 };
 
 export default function RootLayout({
