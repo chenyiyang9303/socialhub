@@ -48,11 +48,13 @@ export default function PinterestPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Pin Management</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/pinterest/imgi_3_post-scheduling.webp"
+                  alt="Pinterest Pin Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -108,11 +110,13 @@ export default function PinterestPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Social Calendar</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/pinterest/imgi_4_social-calendar.webp"
+                  alt="Pinterest Content Calendar"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -125,11 +129,13 @@ export default function PinterestPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Pin Review</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/pinterest/imgi_5_post-review.webp"
+                  alt="Pinterest Pin Preview"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -204,11 +210,13 @@ export default function PinterestPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-red-500 to-pink-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Bulk Scheduler</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/pinterest/imgi_6_bulk-scheduling.webp"
+                  alt="Pinterest Bulk Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -221,11 +229,13 @@ export default function PinterestPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-500 to-yellow-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">RSS Automation</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/pinterest/imgi_7_automate-pin.webp"
+                  alt="Pinterest Automation"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -300,11 +310,13 @@ export default function PinterestPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Link Enhancement</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/pinterest/imgi_8_add-external-link.webp"
+                  alt="Pinterest External Links"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -317,11 +329,13 @@ export default function PinterestPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-violet-500 to-purple-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">AI Inspiration</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/pinterest/imgi_9_ai-inspiration.webp"
+                  alt="Pinterest AI Inspiration"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -397,11 +411,13 @@ export default function PinterestPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-emerald-500 to-green-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Analytics</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/pinterest/imgi_10_analyze.webp"
+                  alt="Pinterest Analytics"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>

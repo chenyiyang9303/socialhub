@@ -1,6 +1,19 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { IconMenu2, IconX, IconChevronDown } from "@tabler/icons-react";
+import { 
+  FaFacebook, 
+  FaYoutube, 
+  FaTwitter, 
+  FaReddit, 
+  FaInstagram, 
+  FaMastodon, 
+  FaPinterest, 
+  FaLinkedin, 
+  FaTiktok, 
+  FaGoogle 
+} from "react-icons/fa";
+import { SiThreads, SiBluesky } from "react-icons/si";
 import {
   motion,
   AnimatePresence,
@@ -22,7 +35,7 @@ interface NavItem {
     name: string;
     link: string;
     description: string;
-    icon: string;
+    icon: string | React.ReactElement;
   }[];
 }
 
@@ -93,73 +106,73 @@ export const Navbar = () => {
           name: "Facebook",
           link: "/facebook",
           description: "Schedule and manage Facebook posts, pages and groups",
-          icon: "📘"
+          icon: <FaFacebook className="text-blue-600" />
         },
         {
           name: "YouTube",
           link: "/youtube",
           description: "Upload and schedule YouTube videos and shorts",
-          icon: "📺"
+          icon: <FaYoutube className="text-red-600" />
         },
         {
           name: "X (Twitter)",
           link: "/twitter",
           description: "Tweet scheduling, threads and engagement management",
-          icon: "🐦"
+          icon: <FaTwitter className="text-blue-400" />
         },
         {
           name: "Reddit",
           link: "/reddit",
           description: "Post to multiple subreddits and manage communities",
-          icon: "🔴"
+          icon: <FaReddit className="text-orange-600" />
         },
         {
           name: "Instagram",
           link: "/instagram",
           description: "Share photos, stories, reels and IGTV content",
-          icon: "📷"
+          icon: <FaInstagram className="text-pink-600" />
         },
         {
           name: "Mastodon",
           link: "/mastodon",
           description: "Decentralized social network posting and management",
-          icon: "🐘"
+          icon: <FaMastodon className="text-purple-600" />
         },
         {
           name: "Threads",
           link: "/threads",
           description: "Meta's text-based conversation platform",
-          icon: "🧵"
+          icon: <SiThreads className="text-gray-800 dark:text-white" />
         },
         {
           name: "Pinterest",
           link: "/pinterest",
           description: "Pin management and board organization",
-          icon: "📌"
+          icon: <FaPinterest className="text-red-600" />
         },
         {
           name: "LinkedIn",
           link: "/linkedin",
           description: "Professional networking and content sharing",
-          icon: "💼"
+          icon: <FaLinkedin className="text-blue-700" />
         },
         {
           name: "Bluesky",
           link: "/bluesky",
           description: "Decentralized social networking protocol",
-          icon: "🦋"
+          icon: <SiBluesky className="text-sky-500" />
         },
         {
           name: "TikTok",
           link: "/tiktok",
           description: "Short-form video content creation and scheduling",
-          icon: "🎵"
+          icon: <FaTiktok className="text-black dark:text-white" />
         },
         {
           name: "Google Business Profile",
           link: "/google-business-profile",
           description: "Manage your business presence on Google",
-          icon: "🏢"
+          icon: <FaGoogle className="text-blue-600" />
         }
       ]
     },
@@ -299,7 +312,7 @@ const DesktopNav = ({ navItems, visible }: NavbarProps) => {
                           className="flex items-start gap-3 p-3 rounded-lg hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors group"
                           onClick={() => setDropdownOpen(null)}
                         >
-                          <div className="text-2xl">{subItem.icon}</div>
+                          <div className={typeof subItem.icon === 'string' ? "text-2xl" : "text-lg flex items-center justify-center w-6 h-6"}>{subItem.icon}</div>
                           <div className="flex-1">
                             <div className="font-medium text-neutral-900 dark:text-neutral-100 group-hover:text-blue-600 dark:group-hover:text-blue-400">
                               {subItem.name}
@@ -472,7 +485,7 @@ const MobileNav = ({ navItems, visible }: NavbarProps) => {
                                   onClick={() => setOpen(false)}
                                   className="flex items-center gap-3 p-2 text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200"
                                 >
-                                  <span className="text-base">{subItem.icon}</span>
+                                  <div className={typeof subItem.icon === 'string' ? "text-2xl" : "text-lg flex items-center justify-center w-6 h-6"}>{subItem.icon}</div>
                                   <span>{subItem.name}</span>
                                 </Link>
                               ))}

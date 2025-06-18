@@ -34,10 +34,6 @@ export function Footer() {
       title: "Contact",
       href: "/#contact",
     },
-    {
-      title: "Blog",
-      href: "#",
-    },
   ];
 
   const products = [

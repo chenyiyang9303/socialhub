@@ -48,11 +48,13 @@ export default function TikTokPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Multiple TikTok</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/tiktok/imgi_3_post-scheduling.webp"
+                  alt="TikTok Video Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -107,11 +109,13 @@ export default function TikTokPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Video Content</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/tiktok/imgi_4_video-posts.webp"
+                  alt="TikTok Video Content"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -124,11 +128,13 @@ export default function TikTokPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Social Calendar</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/tiktok/imgi_5_social-calendar.webp"
+                  alt="TikTok Content Calendar"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -166,11 +172,13 @@ export default function TikTokPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Video Preview</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/tiktok/imgi_6_post-review.webp"
+                  alt="TikTok Video Preview"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -183,11 +191,13 @@ export default function TikTokPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-pink-500 to-rose-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Bulk Schedule</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/tiktok/imgi_7_bulk-scheduling.webp"
+                  alt="TikTok Bulk Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">

@@ -48,11 +48,13 @@ export default function GoogleBusinessProfilePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-500 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Multi-Location</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/google-business-profile/imgi_3_post-scheduling.webp"
+                  alt="Google Business Post Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -127,11 +129,13 @@ export default function GoogleBusinessProfilePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-red-500 to-yellow-500 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Media Content</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/google-business-profile/imgi_4_content-types.webp"
+                  alt="Google Business Content Types"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -144,11 +148,13 @@ export default function GoogleBusinessProfilePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-yellow-500 to-green-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Social Calendar</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/google-business-profile/imgi_5_social-calendar.webp"
+                  alt="Google Business Calendar"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -223,11 +229,13 @@ export default function GoogleBusinessProfilePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Post Review</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/google-business-profile/imgi_6_post-review.webp"
+                  alt="Google Business Post Preview"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -240,11 +248,13 @@ export default function GoogleBusinessProfilePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-500 to-red-500 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Bulk Schedule</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/google-business-profile/imgi_7_bulk-scheduling.webp"
+                  alt="Google Business Bulk Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -319,11 +329,13 @@ export default function GoogleBusinessProfilePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-500 to-yellow-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">RSS Automation</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/google-business-profile/imgi_8_rss-feeds.webp"
+                  alt="Google Business RSS Automation"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -336,11 +348,13 @@ export default function GoogleBusinessProfilePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-500 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Performance</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/google-business-profile/imgi_9_analyze.webp"
+                  alt="Google Business Analytics"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">

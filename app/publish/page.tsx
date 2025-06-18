@@ -34,11 +34,13 @@ export default function PublishPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Hero Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/publish/imgi_3_publish.webp"
+                  alt="Easily Schedule, Preview & Publish"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -51,11 +53,13 @@ export default function PublishPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Schedule Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/publish/imgi_4_schedule.webp"
+                  alt="Schedule across the board"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -113,11 +117,13 @@ export default function PublishPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Calendar Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/publish/imgi_5_social-calendar.webp"
+                  alt="Social Calendar"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -130,11 +136,13 @@ export default function PublishPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Recycle Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/publish/imgi_6_recycle-post.webp"
+                  alt="Save Time and Energy by Recycling Posts"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -169,11 +177,13 @@ export default function PublishPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-red-400 to-red-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Bulk Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/publish/imgi_7_bulk-upload.webp"
+                  alt="Bulk Schedule Your Content"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -186,11 +196,13 @@ export default function PublishPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-pink-400 to-pink-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Preview Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/publish/imgi_8_preview-post.webp"
+                  alt="Preview Before You Publish"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -225,11 +237,13 @@ export default function PublishPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Stories Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/publish/imgi_9_stories.webp"
+                  alt="Plan and Schedule Stories"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -242,11 +256,13 @@ export default function PublishPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Reels Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/publish/imgi_10_reels.webp"
+                  alt="Schedule Instagram Reels"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">

@@ -26,11 +26,13 @@ export default function AnalyzePage() {
                 </p>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Analytics Dashboard</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/analyze/imgi_3_analyze-post.webp"
+                  alt="Analyze your content Strategy"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -103,11 +105,13 @@ export default function AnalyzePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Post Insights</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/analyze/imgi_5_post-insights.webp"
+                  alt="Get Individual post insights"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -170,11 +174,13 @@ export default function AnalyzePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Growth Chart</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/analyze/imgi_6_trends.webp"
+                  alt="Track your growth trends"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">

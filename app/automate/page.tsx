@@ -23,11 +23,13 @@ export default function AutomatePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Automation Flow</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/automate/imgi_3_automate-post.webp"
+                  alt="Automate Your Social Media"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -40,11 +42,13 @@ export default function AutomatePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">RSS Feed Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/automate/imgi_4_rss-feed.webp"
+                  alt="Auto post from RSS feeds"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -79,11 +83,13 @@ export default function AutomatePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Auto Reply Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/automate/imgi_5_auto-reply.webp"
+                  alt="Auto replies without any delay"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -96,11 +102,13 @@ export default function AutomatePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Reviews Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/automate/imgi_6_automatic-reviews.webp"
+                  alt="Handle reviews automatically"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -135,11 +143,13 @@ export default function AutomatePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Webhooks Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/automate/imgi_7_webhook.webp"
+                  alt="Automate Using Webhooks"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>

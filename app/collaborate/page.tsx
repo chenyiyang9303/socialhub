@@ -29,11 +29,13 @@ export default function CollaboratePage() {
                 </div>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Team Collaboration Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/collaborate/imgi_3_manage-teams.webp"
+                  alt="Collaborate & manage teams"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -46,11 +48,13 @@ export default function CollaboratePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Team Members Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/collaborate/imgi_4_collaboration.webp"
+                  alt="Collaboration made easy"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -125,11 +129,13 @@ export default function CollaboratePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Multiple Brands Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/collaborate/imgi_5_manage-brands.webp"
+                  alt="Manage multiple brands"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -142,11 +148,13 @@ export default function CollaboratePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Content Review Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/collaborate/imgi_6_post-review.webp"
+                  alt="Review before they get published"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -221,11 +229,13 @@ export default function CollaboratePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Team Notes Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/collaborate/imgi_7_private-team.webp"
+                  alt="Private notes for your team"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>

@@ -48,11 +48,13 @@ export default function ThreadsPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Schedule Posts</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/threads/imgi_3_post-scheduling.webp"
+                  alt="Threads Post Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -109,11 +111,13 @@ export default function ThreadsPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-400 to-teal-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Media Content</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/threads/imgi_4_post-anything.webp"
+                  alt="Threads Content Creation"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -126,11 +130,13 @@ export default function ThreadsPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-400 to-pink-500 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Thread Posting</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/threads/imgi_5_effortless-post.webp"
+                  alt="Threads Effortless Posting"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -187,11 +193,13 @@ export default function ThreadsPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-400 to-red-500 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Social Calendar</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/threads/imgi_6_post-calendar.webp"
+                  alt="Threads Content Calendar"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -204,11 +212,13 @@ export default function ThreadsPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-emerald-400 to-green-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Post Preview</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/threads/imgi_7_post-review.webp"
+                  alt="Threads Post Preview"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -247,11 +257,13 @@ export default function ThreadsPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Bulk Schedule</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/threads/imgi_8_post-schedule.webp"
+                  alt="Threads Advanced Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -264,11 +276,13 @@ export default function ThreadsPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-teal-400 to-emerald-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">RSS Automation</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/threads/imgi_9_rss-feeds.webp"
+                  alt="Threads RSS Automation"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -307,11 +321,13 @@ export default function ThreadsPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-indigo-400 to-purple-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Messages & Comments</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/threads/imgi_10_comments-and-messages.webp"
+                  alt="Threads Comments Management"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -324,11 +340,13 @@ export default function ThreadsPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Analytics</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/threads/imgi_11_analyze.webp"
+                  alt="Threads Analytics"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">

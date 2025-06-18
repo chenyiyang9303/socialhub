@@ -31,11 +31,13 @@ export default function GeneratePage() {
                 </div>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">AI Generator Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/generate/imgi_3_generate-content.webp"
+                  alt="Generate Content with AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -48,11 +50,13 @@ export default function GeneratePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Content Demo Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/generate/imgi_3_generate-content.webp"
+                  alt="Generate unlimited content ideas"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -124,11 +128,13 @@ export default function GeneratePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">X Posts Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/generate/imgi_4_twitter-post.webp"
+                  alt="Write X posts faster with AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -141,11 +147,13 @@ export default function GeneratePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">LinkedIn Posts Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/generate/imgi_5_linkedin-post.webp"
+                  alt="Write LinkedIn posts faster with AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -198,11 +206,13 @@ export default function GeneratePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-pink-400 to-pink-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Instagram Captions Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/generate/imgi_6_instagram-caption.webp"
+                  alt="AI write Instagram captions faster"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -215,11 +225,13 @@ export default function GeneratePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Short Posts Image</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/generate/imgi_7_short-post.webp"
+                  alt="Write Short posts faster with AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">

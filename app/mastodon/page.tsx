@@ -48,11 +48,13 @@ export default function MastodonPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Multi-Account</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/mastodon/imgi_3_post-scheduling.webp"
+                  alt="Mastodon Post Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -128,11 +130,13 @@ export default function MastodonPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Thread Publisher</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/mastodon/imgi_4_threads-on-mastodon.webp"
+                  alt="Mastodon Thread Creation"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -145,11 +149,13 @@ export default function MastodonPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-violet-500 to-pink-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Media Upload</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/mastodon/imgi_5_post-anything.webp"
+                  alt="Mastodon Content Types"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -205,11 +211,13 @@ export default function MastodonPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Social Calendar</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/mastodon/imgi_6_social-calendar.webp"
+                  alt="Mastodon Content Calendar"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -222,11 +230,13 @@ export default function MastodonPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Post Review</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/mastodon/imgi_7_post-review.webp"
+                  alt="Mastodon Post Preview"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -301,11 +311,13 @@ export default function MastodonPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Bulk Scheduler</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/mastodon/imgi_8_bulk-scheduling.webp"
+                  alt="Mastodon Bulk Scheduling"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
             </div>
           </div>
@@ -318,11 +330,13 @@ export default function MastodonPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">RSS Automation</span>
-                  </div>
-                </div>
+                <Image
+                  src="/platform/mastodon/imgi_9_rss-feeds.webp"
+                  alt="Mastodon RSS Automation"
+                  width={600}
+                  height={400}
+                  className="rounded-2xl shadow-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">

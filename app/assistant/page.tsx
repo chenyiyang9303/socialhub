@@ -1,5 +1,6 @@
 import { Container } from "@/components/container";
 import { Button } from "@/components/button";
+import Image from "next/image";
 
 export default function AssistantPage() {
   return (
@@ -30,11 +31,13 @@ export default function AssistantPage() {
                 </div>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Aethermetrics AI Interface</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/assistant/imgi_3_socialbu-ai.webp"
+                  alt="Leverage the power of Aethermetrics's AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -47,11 +50,13 @@ export default function AssistantPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-purple-400 to-purple-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">AI Autocomplete Interface</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/assistant/imgi_4_ai-assistant.webp"
+                  alt="Autocomplete with AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -124,11 +129,13 @@ export default function AssistantPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-green-400 to-green-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Post Generation Interface</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/assistant/imgi_5_top-posts.webp"
+                  alt="Generate similar post using AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -141,11 +148,13 @@ export default function AssistantPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">AI Assistant Chat Interface</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/assistant/imgi_6_personal-assistant.webp"
+                  alt="Your personal AI assistant"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -218,11 +227,13 @@ export default function AssistantPage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Content Curation Interface</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/assistant/imgi_7_curate-content.webp"
+                  alt="Curate content using AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -235,11 +246,13 @@ export default function AssistantPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-pink-400 to-pink-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Caption Generation Interface</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/assistant/imgi_8_generate-caption.webp"
+                  alt="Generate captions with AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">

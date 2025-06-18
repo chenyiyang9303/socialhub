@@ -26,11 +26,13 @@ export default function CuratePage() {
                 </p>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Content Curation</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/curate/imgi_3_curate-content.webp"
+                  alt="Curate Content for Your Social Media"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -54,11 +56,13 @@ export default function CuratePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Content Filters</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/curate/imgi_4_advance-content.webp"
+                  alt="Find Content with Advanced Filtering"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -131,11 +135,13 @@ export default function CuratePage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-teal-400 to-teal-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Social Share UI</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/curate/imgi_5_share-content.webp"
+                  alt="Share to social media with one click"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">
@@ -193,11 +199,13 @@ export default function CuratePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-indigo-400 to-indigo-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">Multi-Platform Share</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/curate/imgi_5_share-content.webp"
+                  alt="Share to social media with one click"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
@@ -221,11 +229,13 @@ export default function CuratePage() {
                 </Button>
               </div>
               <div className="relative">
-                <div className="w-full h-96 bg-gradient-to-br from-violet-400 to-violet-600 rounded-2xl flex items-center justify-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-xl flex items-center justify-center">
-                    <span className="text-white text-sm font-medium">AI Content Generator</span>
-                  </div>
-                </div>
+                <Image
+                  src="/product/curate/imgi_6_generate-content.webp"
+                  alt="Generate Posts Using AI"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto rounded-2xl"
+                />
               </div>
             </div>
           </div>
